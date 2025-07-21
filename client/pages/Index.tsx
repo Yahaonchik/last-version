@@ -57,19 +57,224 @@ export default function Index() {
           }}
                 />
 
-        {/* Gear Mechanism Image */}
+                        {/* Main Title */}
+        <div
+          className="absolute"
+          style={{
+            top: '220px',
+            left: '202px',
+            width: '495px',
+            height: '30px'
+          }}
+        >
+          <div
+            className="text-center font-noto-serif text-2xl font-medium"
+            style={{
+              fontSize: '25px',
+              letterSpacing: '0.25px',
+              lineHeight: 'normal'
+            }}
+          >
+            <span style={{ color: 'rgba(85,85,85,1)' }}>
+              Ремонт cтиральных машин в
+            </span>
+            <span style={{ color: 'rgba(75,75,75,1)' }}>
+              {' '}
+            </span>
+            <span style={{ color: 'rgba(173,216,230,1)' }}>
+              Одессе!
+            </span>
+          </div>
+        </div>
+
+        {/* New Gear Image */}
                 <img
-          src="https://cdn.builder.io/api/v1/image/assets%2Fea67132b7b3040328d48c651d9c0b32e%2Fdc19dc8ffce245e0a3c8e3b8e832dd1d?format=png&width=2000"
+          src="https://cdn.builder.io/api/v1/image/assets%2F99251f7af2ae428eba301b8c13c1a6a5%2F1833cb34a32d40cf8645d788f38aab08?format=webp&width=800"
           alt="Gear mechanism"
           className="absolute"
           style={{
-            top: '250px',
-            left: 'calc(50% - 250px)', // Moved 30px to the right (from -280px to -250px)
-                        width: '759px',
-            height: '636px',
+                                                            top: '215px',
+                        left: 'calc(50% - 240px)', // Positioned to the left of washing machine
+                                                                                                width: '330px',
+            height: '280px',
             objectFit: 'contain'
           }}
         />
+
+                                {/* Tool 1 - Vise */}
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets%2F99251f7af2ae428eba301b8c13c1a6a5%2F6a10921a25284f10adb24bb387e9efff?format=webp&width=800"
+          alt="Vise tool"
+          className="absolute"
+          style={{
+            top: '180px',
+            left: '950px',
+            width: '60px',
+            height: '60px',
+            objectFit: 'contain'
+          }}
+        />
+
+        {/* Tool 2 - Pliers */}
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets%2F99251f7af2ae428eba301b8c13c1a6a5%2F3d12faef675745399f50f5dc2b7cdb1c?format=webp&width=800"
+          alt="Pliers tool"
+          className="absolute"
+          style={{
+            top: '420px',
+            left: '150px',
+            width: '60px',
+            height: '60px',
+            objectFit: 'contain'
+          }}
+        />
+
+        {/* Tool 3 - Wrench */}
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets%2F99251f7af2ae428eba301b8c13c1a6a5%2F47cd4e76a2a7427da1dffc810bdfd0cc?format=webp&width=800"
+          alt="Wrench tool"
+          className="absolute"
+          style={{
+            top: '680px',
+            left: '1200px',
+            width: '60px',
+            height: '60px',
+            objectFit: 'contain'
+          }}
+        />
+
+        {/* Tool 4 - Nut */}
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets%2F99251f7af2ae428eba301b8c13c1a6a5%2F3abf07b3c92b41fb9fff985a8ba4411b?format=webp&width=800"
+          alt="Nut tool"
+          className="absolute"
+          style={{
+            top: '850px',
+            left: '400px',
+            width: '60px',
+            height: '60px',
+            objectFit: 'contain'
+          }}
+        />
+
+        {/* Tool 5 - Screwdriver */}
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets%2F99251f7af2ae428eba301b8c13c1a6a5%2F9734c7344daf4f619cf9abdc1d2789cb?format=webp&width=800"
+          alt="Screwdriver tool"
+          className="absolute"
+          style={{
+            top: '320px',
+            left: '1350px',
+            width: '60px',
+            height: '60px',
+            objectFit: 'contain'
+          }}
+        />
+
+        {/* Contact Form */}
+        <div
+          className="absolute"
+          style={{
+                        top: '532px',
+            left: 'calc(50% - 350px)',
+            width: '392px',
+            height: '270px'
+          }}
+        >
+          <div className="flex flex-col justify-center items-center gap-7 h-full">
+            {/* Name Field */}
+            <div className="w-full">
+              <div
+                className="text-sm font-nunito text-gray-600 mb-3"
+                style={{
+                  fontFamily: 'Nunito, -apple-system, Roboto, Helvetica, sans-serif',
+                  color: '#555555',
+                  letterSpacing: '0.7px'
+                }}
+              >
+                1. Напишите Ваше имя
+              </div>
+              <div
+                className="w-full h-10 px-5 flex items-center rounded-sm"
+                style={{
+                  border: '0.5px solid rgba(18, 18, 18, 0.25)',
+                  background: '#F8F5ED',
+                  boxShadow: '1px 4px 5.2px 0px rgba(0, 0, 0, 0.05), -2px -3px 5.8px 0px rgba(255, 255, 255, 0.30)'
+                }}
+              >
+                <span
+                  className="text-sm italic font-nunito"
+                  style={{
+                    fontFamily: 'Nunito, -apple-system, Roboto, Helvetica, sans-serif',
+                    color: 'rgba(61, 61, 61, 0.77)',
+                    fontSize: '15px',
+                    letterSpacing: '0.725px'
+                  }}
+                >
+                  оксана
+                </span>
+              </div>
+            </div>
+
+            {/* Phone Field */}
+            <div className="w-full">
+              <div
+                className="text-sm font-nunito text-gray-600 mb-3"
+                style={{
+                  fontFamily: 'Nunito, -apple-system, Roboto, Helvetica, sans-serif',
+                  color: '#555555',
+                  letterSpacing: '0.7px'
+                }}
+              >
+                2. Укажите свой номер телефона
+              </div>
+              <div
+                className="w-full h-10 px-5 flex items-center rounded-sm"
+                style={{
+                  border: '0.5px solid rgba(18, 18, 18, 0.25)',
+                  background: '#F8F5ED',
+                  boxShadow: '1px 4px 5.2px 0px rgba(0, 0, 0, 0.05)'
+                }}
+              >
+                <span
+                  className="text-sm italic font-nunito"
+                  style={{
+                    fontFamily: 'Nunito, -apple-system, Roboto, Helvetica, sans-serif',
+                    color: 'rgba(61, 61, 61, 0.77)',
+                    fontSize: '15px',
+                    letterSpacing: '0.725px'
+                  }}
+                >
+                  +380
+                </span>
+              </div>
+            </div>
+
+            {/* Submit Button */}
+            <div
+              className="w-full h-10 px-5 flex items-center justify-center rounded-sm cursor-pointer"
+              style={{
+                border: '0.5px solid rgba(18, 18, 18, 0.25)',
+                background: '#E5EDEB',
+                boxShadow: '1px 4px 5.2px 0px rgba(0, 0, 0, 0.10), -2px -3px 5.8px 0px rgba(255, 255, 255, 0.30)',
+                width: '332px'
+              }}
+            >
+              <span
+                className="text-sm font-nunito"
+                style={{
+                  fontFamily: 'Nunito, -apple-system, Roboto, Helvetica, sans-serif',
+                  color: '#585858',
+                  fontSize: '14px',
+                  letterSpacing: '0.56px',
+                  fontWeight: '500'
+                }}
+              >
+                Получить помощь
+              </span>
+            </div>
+          </div>
+        </div>
 
         {/* Circle Background for Washing Machine */}
         <div 

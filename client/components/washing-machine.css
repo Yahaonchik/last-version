@@ -198,7 +198,7 @@ a {
   z-index: 5;
   bottom: 0;
   left: 0;
-  background: #32bafa;
+    background: #E5EDEB;
   -webkit-transform: translate(0, 50%);
   transform: translate(0, 50%);
   animation: waterLevel 4s ease-in-out infinite alternate;
@@ -237,7 +237,7 @@ a {
 
 .water-wave-front {
   left: 0;
-  fill: #32bafa;
+        fill: #E5EDEB;
   margin-bottom: -1px;
   -webkit-animation: wave-front 1.2s infinite linear;
   animation: wave-front 1.2s infinite linear;
