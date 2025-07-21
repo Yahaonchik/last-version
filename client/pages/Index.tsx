@@ -48,9 +48,9 @@ export default function Index() {
           alt=""
           className="absolute"
           style={{
-            top: '150px',
+                        top: '100px',
                         left: '50%',
-                        transform: 'translateX(-50%) scale(1.1)',
+                                                transform: 'translateX(-50%) scale(0.92)', // Reduced by 1.2 times (1.1/1.2=0.92)
             width: '1731px',
             height: '777px',
             objectFit: 'contain'
@@ -87,96 +87,50 @@ export default function Index() {
           </div>
         </div>
 
-        {/* New Gear Image */}
-                <img
-          src="https://cdn.builder.io/api/v1/image/assets%2F99251f7af2ae428eba301b8c13c1a6a5%2F1833cb34a32d40cf8645d788f38aab08?format=webp&width=800"
-          alt="Gear mechanism"
-          className="absolute"
-          style={{
-                                                            top: '215px',
-                        left: 'calc(50% - 240px)', // Positioned to the left of washing machine
-                                                                                                width: '330px',
-            height: '280px',
-            objectFit: 'contain'
-          }}
-        />
+        
 
-                                {/* Tool 1 - Vise */}
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets%2F99251f7af2ae428eba301b8c13c1a6a5%2F6a10921a25284f10adb24bb387e9efff?format=webp&width=800"
-          alt="Vise tool"
-          className="absolute"
-          style={{
-            top: '180px',
-            left: '950px',
-            width: '60px',
-            height: '60px',
-            objectFit: 'contain'
-          }}
-        />
+                                
 
-        {/* Tool 2 - Pliers */}
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets%2F99251f7af2ae428eba301b8c13c1a6a5%2F3d12faef675745399f50f5dc2b7cdb1c?format=webp&width=800"
-          alt="Pliers tool"
-          className="absolute"
-          style={{
-            top: '420px',
-            left: '150px',
-            width: '60px',
-            height: '60px',
-            objectFit: 'contain'
-          }}
-        />
+        
 
-        {/* Tool 3 - Wrench */}
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets%2F99251f7af2ae428eba301b8c13c1a6a5%2F47cd4e76a2a7427da1dffc810bdfd0cc?format=webp&width=800"
-          alt="Wrench tool"
+        {/* First Figma Text - above name field */}
+        <div
           className="absolute"
           style={{
-            top: '680px',
-            left: '1200px',
-            width: '60px',
-            height: '60px',
-            objectFit: 'contain'
+            top: '350px',
+            left: 'calc(50% - 625px)',
+                        width: '500px',
+            height: '19px'
           }}
-        />
-
-        {/* Tool 4 - Nut */}
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets%2F99251f7af2ae428eba301b8c13c1a6a5%2F3abf07b3c92b41fb9fff985a8ba4411b?format=webp&width=800"
-          alt="Nut tool"
-          className="absolute"
-          style={{
-            top: '850px',
-            left: '400px',
-            width: '60px',
-            height: '60px',
-            objectFit: 'contain'
-          }}
-        />
-
-        {/* Tool 5 - Screwdriver */}
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets%2F99251f7af2ae428eba301b8c13c1a6a5%2F9734c7344daf4f619cf9abdc1d2789cb?format=webp&width=800"
-          alt="Screwdriver tool"
-          className="absolute"
-          style={{
-            top: '320px',
-            left: '1350px',
-            width: '60px',
-            height: '60px',
-            objectFit: 'contain'
-          }}
-        />
+        >
+                    <div
+            className="font-nunito text-sm"
+                        style={{
+              fontFamily: 'Nunito, -apple-system, Roboto, Helvetica, sans-serif',
+              fontSize: '14px',
+              fontWeight: '400',
+              letterSpacing: '0.7px',
+              whiteSpace: 'nowrap'
+            }}
+          >
+                        <span style={{ color: '#534D5C' }}>
+              Работаем 7 дней в неделю по всей
+            </span>
+            <span style={{ color: '#58476F' }}>
+              {' '}
+            </span>
+            <span style={{ color: 'rgba(112,160,206,1)' }}>
+              Одессе!
+            </span>
+          </div>
+        </div>
 
         {/* Contact Form */}
         <div
           className="absolute"
           style={{
-                        top: '532px',
-            left: 'calc(50% - 350px)',
+                                                                                                top: '432px', // Moved down 50px (382+50=432)
+                                    left: 'calc(50% - 600px)', // Moved right 50px (-650+50=-600)
             width: '392px',
             height: '270px'
           }}
@@ -196,9 +150,9 @@ export default function Index() {
               </div>
               <div
                 className="w-full h-10 px-5 flex items-center rounded-sm"
-                style={{
+                                style={{
                   border: '0.5px solid rgba(18, 18, 18, 0.25)',
-                  background: '#F8F5ED',
+                  background: '#E5EDEB',
                   boxShadow: '1px 4px 5.2px 0px rgba(0, 0, 0, 0.05), -2px -3px 5.8px 0px rgba(255, 255, 255, 0.30)'
                 }}
               >
@@ -230,9 +184,9 @@ export default function Index() {
               </div>
               <div
                 className="w-full h-10 px-5 flex items-center rounded-sm"
-                style={{
+                                style={{
                   border: '0.5px solid rgba(18, 18, 18, 0.25)',
-                  background: '#F8F5ED',
+                  background: '#E5EDEB',
                   boxShadow: '1px 4px 5.2px 0px rgba(0, 0, 0, 0.05)'
                 }}
               >
@@ -253,9 +207,9 @@ export default function Index() {
             {/* Submit Button */}
             <div
               className="w-full h-10 px-5 flex items-center justify-center rounded-sm cursor-pointer"
-              style={{
+                            style={{
                 border: '0.5px solid rgba(18, 18, 18, 0.25)',
-                background: '#E5EDEB',
+                background: '#F6F3EB',
                 boxShadow: '1px 4px 5.2px 0px rgba(0, 0, 0, 0.10), -2px -3px 5.8px 0px rgba(255, 255, 255, 0.30)',
                 width: '332px'
               }}
@@ -276,12 +230,44 @@ export default function Index() {
           </div>
         </div>
 
+                {/* Second Figma Text - above washing machine */}
+                <div
+          className="absolute"
+          style={{
+            top: '410px',
+            left: 'calc(50% + 70px)',
+                        width: '400px',
+            height: '19px'
+          }}
+        >
+          <div
+            className="font-nunito text-sm"
+            style={{
+              fontFamily: 'Nunito, -apple-system, Roboto, Helvetica, sans-serif',
+              fontSize: '14px',
+              fontWeight: '400',
+                            letterSpacing: '0.7px'
+              
+            }}
+          >
+                                    <span style={{ color: '#534D5C' }}>
+              Откликнемся на любой
+            </span>
+            <span style={{ color: '#58476F' }}>
+              {' '}
+            </span>
+            <span style={{ color: 'rgba(112,160,206,1)' }}>
+              вызов!
+            </span>
+          </div>
+        </div>
+
         {/* Circle Background for Washing Machine */}
         <div 
           className="absolute"
           style={{
-            top: '300px', // 150px from background image top (150px + 150px)
-            left: '50%',
+                                    top: '450px', // Moved down 100px
+                        left: 'calc(50% + 35px - 50px)', // Moved left 50px from previous position
             transform: 'translateX(-50%)',
             width: '170px',
             height: '170px',
@@ -300,7 +286,7 @@ export default function Index() {
               transform: 'translate(-50%, -50%) scale(0.6)' // Scale down to 120x120 (from 200x200)
             }}
           >
-            <div id="washer">
+                        <div id="washer" className="animate">
               <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" style={{ display: 'none' }}>
                 <symbol id="wave">
                   <path d="M420,20c21.5-0.4,38.8-2.5,51.1-4.5c13.4-2.2,26.5-5.2,27.3-5.4C514,6.5,518,4.7,528.5,2.7c7.1-1.3,17.9-2.8,31.5-2.7c0,0,0,0,0,0v20H420z"></path>
@@ -310,13 +296,14 @@ export default function Index() {
                 </symbol>
               </svg>
 
+              <div className="washer-backdrop"></div>
+
               <div id="door">
-                <div id="inner-door">
-                  <div id="drum"></div>
+                <div className="washer-door-reflection"></div>
+                <div className="washer-door-reflection"></div>
+
+                                <div id="inner-door">
                   <div id="page" className="page">
-                    <div className="percent">
-                      <div className="temperature"></div>
-                    </div>
                     <div id="water" className="water">
                       <svg viewBox="0 0 560 20" className="water-wave water-wave-back">
                         <use xlinkHref="#wave"></use>
@@ -332,8 +319,41 @@ export default function Index() {
                     </div>
                   </div>
                 </div>
+
+                <div className="washer-door-handle"></div>
               </div>
             </div>
+                    </div>
+        </div>
+
+        {/* Third Figma Text - below washing machine */}
+                <div
+          className="absolute"
+          style={{
+            top: '580px',
+            left: 'calc(50% + 100px)',
+            width: '204px',
+            height: '19px'
+          }}
+        >
+          <div
+            className="font-nunito text-sm"
+                        style={{
+              fontFamily: 'Nunito, -apple-system, Roboto, Helvetica, sans-serif',
+              fontSize: '14px',
+              fontWeight: '400',
+              letterSpacing: '0.7px'
+            }}
+          >
+                                    <span style={{ color: '#534D5C' }}>
+              Приезжаем всегда
+            </span>
+            <span style={{ color: '#58476F' }}>
+              {' '}
+            </span>
+            <span style={{ color: 'rgba(112,160,206,1)' }}>
+              вовремя!
+            </span>
           </div>
         </div>
       </div>
